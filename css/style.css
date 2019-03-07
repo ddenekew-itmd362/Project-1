@@ -83,13 +83,13 @@ h1{
   height: auto;
   width: 100%;
   margin-right: 50%;
-  margin-left: 20%;
+  margin-left: 50%;
 }
 #click:hover {
   background-color: #a1b0ba;
 }
 #click{
-  border-radius: 50%;
+  border-radius: 100%;
   font-style: oblique;
 }
 /* Mobile first css */
