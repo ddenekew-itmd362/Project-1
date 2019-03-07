@@ -29,7 +29,7 @@ img {
   display: block;
 }
 fieldset{
-  background-color: #6a307f;
+  background-color: ##000000;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -154,7 +154,7 @@ h1{
   }
 
   h1{
-    font-size: 5vw;
+    font-size: 5.9vw;
     margin-top: 5%;
   }
   body{
