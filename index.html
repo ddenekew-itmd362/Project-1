@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+  <head>
+    <meta charset="utf-8">
+    <title>UEFA Champions League</title>
+  </head>
+  <body>
+    <<form method="get" action="#null" autocomplete="on" onsubmit="return checkForm(this)">
+      <<fieldset>
+        <<img id="logo" src="media/uefa.png" alt="image"/>
+        <h1>Sign Up For Champions League Free Gifts</h1>
+        <div>
+        <label>Name:</label>
+        <input type = "text" name = "Name" placeholder = "Enter Your Name">
+      </div>
+      <div>
+        <label>E-mail:</label>
+        <input type = "text" name = "user_email_field" placeholder = "user@example.com">
+      </div>
+      <div>
+        <label>Phone Number:</label>
+        <input type = "tel" name = "phone_field" placeholder = "(123)-456-7890">
+      </div>
+      <div>
+        <label>Date of Birth:</label>
+        <input type="text" name="date" id="date" value="" placeholder="MM/DD/YYYY">
+      </div>
+      <div>
+        <label>Username:</label>
+        <input type = "text" name = "username_field" placeholder = "Enter a username" required />
+      </div>
+      <div>
+        <label>Password:</label>
+        <input type = "password" name = "password_field" placeholder = "Enter a password" required />
+      </div>
+      <div>
+        <p>
+          <input type="checkbox" name="checkbox" /> I have
+          read the Terms and Conditions and agree to the Privacy Policy. Together, we'll get you to what you want.
+        </p>
+        <div id="submit">
+          <p>
+            <input type = "submit" id="click" value= "Join Now" onclick="checkbox()">
+          </p>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</body>
+</html>
