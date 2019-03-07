@@ -55,9 +55,9 @@ Using 19px/1.333 modular scale
 http://www.modularscale.com/?19&px&1.333&web&text
 */
 html {
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  background-color: #3e717f;
-  color: #715119;
+  font-family: font-family: 'Abel', sans-serif;
+  background-color: gray;
+  color: white;
 }
 body {
   font-size: 1.1875em;         /* ~ 19px base font size */
