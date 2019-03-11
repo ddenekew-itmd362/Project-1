@@ -93,7 +93,7 @@ h1{
   font-style: oblique;
 }
 /* Mobile first css */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 760px) {
   body{
     padding-left: 6%;
     padding-right: 94%;
