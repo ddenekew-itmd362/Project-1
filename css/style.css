@@ -93,8 +93,12 @@ h1{
   font-style: oblique;
 }
 /* Mobile first css */
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 600px) {
   body{
+    margin-bottom: 8px;
+    margin-left: 49px;
+    margin-right: 49px;
+    margin-top: 8px;
     padding-left: 6%;
     padding-right: 94%;
     background-color: #000000;
