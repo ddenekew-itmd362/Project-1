@@ -78,7 +78,9 @@ h1{
   position: inherit;
 }
 #submit{;
-  padding-top: 10%;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  padding-left: 0.25em;
   text-align: center;
   height: auto;
   width: 100%;
