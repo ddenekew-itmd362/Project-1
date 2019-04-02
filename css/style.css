@@ -1,6 +1,12 @@
 /*my style*/
+
+img, audio, video {
+  display: block;
+  max-width: 100%;
+}
+
 body{
-  padding-top: 2%;
+  padding-top: 6em;
   padding-right: 9em;
   padding-bottom: 6em;
   padding-left: 9em;
@@ -37,8 +43,12 @@ fieldset{
   padding-right: 9em;
   padding-bottom: 5em;
   padding-left: 9em;
-  width: 750px;
+  width: 100px;
   height: auto;
+}
+form{
+  padding-right;
+  padding-left;
 }
 div{
   padding-bottom: 25px;
@@ -82,7 +92,7 @@ h1{
   padding-bottom: 0.75em;
   padding-left: 0.25em;
   text-align: center;
-  height: auto;
+  height: inline;
   width: 100%;
   margin-right: 50%;
   margin-left: 50%;
@@ -95,13 +105,12 @@ h1{
   font-style: oblique;
 }
 /* Mobile first css */
-@media screen and (max-width: 600px) {
-  body{
-    margin-bottom: 8px;
-    margin-left: 49px;
-    margin-right: 49px;    margin-top: 8px;
-    padding-left: 6%;
-    padding-right: 94%;
+@media screen and (min-width: 600px) {
+  body {
+    width: 600px;
+    display: block;
+    margin: auto;
+    text-align: center;
     background-color: #000000;
   }
   div{
@@ -145,11 +154,35 @@ h1{
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 580px){
+/*medium-screens*/
+@media screen and (max-width: 668px) {
+  body {
+    background-color: #000000;
+  }
+  label {
+    text-align: left;
+    padding-top: 0.297em;
+    padding-bottom: 0.297em;
+  }
+  #logo {
+    width: 90%;
+    height: 90%;
+    align-self: center;
+    /*height: 4.632em; */
+    /* 101.913px */
+  }
+
+/* Small Devices, Phones */
+@media screen and (max-width: 360px){
   /* For mobile phones: */
-  form{
-    padding: 5%;
-    margin: 2% 5% 2% 5%;
+  label {
+      display: inline-block;
+      padding-top: 0.297em;
+      padding-bottom: 0.297em;
+    }
+
+  #submit {
+    text-align: center;
   }
   fieldset{
     width: 100%;
