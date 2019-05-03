@@ -70,7 +70,6 @@ optgroup,
 select,
 textarea {
   font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
@@ -224,15 +223,13 @@ img, audio, video {
   max-width: 100%;
 }
 label{
-  text-align: center;
-  padding-top: 40px;
-  font-size: 50px;
+  font-size: 20px;
 
 }
 h1{
   text-align: center;
   font-style: normal;
-  font-family: 'Abel', sans-serif, monospace;
+  font-family: sans-serif, monospace;
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 20px;
@@ -242,13 +239,13 @@ img {
 }
 fieldset{
   background-color: #000000;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   padding-top: 2em;
   padding-right: 9em;
   padding-bottom: 5em;
-  width: 100px;
+  width: 50px;
   height: auto;
 }
 form{
@@ -257,8 +254,6 @@ form{
 }
 div{
   padding-bottom: 25px;
-  font-size: 30px;
-  text-align: left;
 }
 
 input[type=email],
@@ -266,12 +261,9 @@ input[type=text],
 input[type=date],
 input[type=tel],
 input[type=password] {
-  width: 55%;
+  width: 100%;
   height: 55%;
   font-size: 80%;
-  text-align: center;
-  padding: 12px 10px;
-  margin-left: 40%;
 }
 input[type = checkbox]{
   padding-bottom: 40%;
@@ -283,10 +275,10 @@ footer{
 }
 h1{
   text-align: center;
-  font-family: 'Abel', sans-serif, monospace;
+  font-family: sans-serif, monospace;
   font-style: oblique;
   font-weight: bold;
-  font-size: 150%;
+  font-size: 100%;
 }
 .mySlides{
   display: none;
@@ -297,7 +289,7 @@ h1{
   padding-bottom: 0.75em;
   padding-left: 0.25em;
   height: inline;
-  width: 100%;
+  /* width: 100%; */
   margin-right: 50%;
   margin-left: 50%;
 }
@@ -310,9 +302,9 @@ h1{
 }
 /* Mobile first css */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 720px) {
   body {
-    width: 600px;
+    width: 720px;
     margin: auto;
     background-color: #000000;
   }
@@ -333,8 +325,6 @@ h1{
 
   label {
     width: 70%;
-    text-align: left;
-    /* text-align: center; */
   }
 
   form > fieldset {
@@ -347,7 +337,6 @@ h1{
   input[type=date],
   input[type=password],
   input[type=tel] {
-    width: 180px;
     padding-left: 20%;
     text-align: center;
   }
@@ -358,20 +347,12 @@ h1{
 }
 /*Mobile / Ipod responsive*/
 @media screen and (min-width: 340px) {
-  body {
-    background-color: #000000;
-  }
   label {
     text-align: left;
-    padding-top: 0.297em;
-    padding-bottom: 0.297em;
   }
   #logo {
-    width: 90%;
     height: 90%;
     align-self: center;
-    /*height: 4.632em; */
-    /* 101.913px */
   }
   label {
     display: inline-block;
@@ -380,58 +361,19 @@ h1{
   }
 
   #submit {
+    width: auto;
     text-align: center;
   }
   fieldset{
-    width: 100%;
+    width: 80%;
+    padding-left: 10%;
   }
   input[type=text]{
     width: 100%;
   }
 
   h1{
-    font-size: 5.9vw;
-    margin-top: 5%;
-  }
-  body{
-    background: #000000;
-  }
-
-/*medium-screens*/
-@media screen and (max-width: 668px) {
-  body {
-    background-color: #000000;
-  }
-  label {
-    text-align: left;
-    padding-top: 0.297em;
-    padding-bottom: 0.297em;
-  }
-  #logo {
-    width: 90%;
-    height: 90%;
-    align-self: center;
-    /*height: 4.632em; */
-    /* 101.913px */
-  }
-  label {
-    display: inline-block;
-    padding-top: 0.297em;
-    padding-bottom: 0.297em;
-  }
-
-  #submit {
-    text-align: center;
-  }
-  fieldset{
-    width: 100%;
-  }
-  input[type=text]{
-    width: 100%;
-  }
-
-  h1{
-    font-size: 5.9vw;
+    font-size: 2.9vw;
     margin-top: 5%;
   }
   body{
