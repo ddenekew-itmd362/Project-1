@@ -315,11 +315,11 @@ h1{
 
   fieldset {
     margin: 0 0 0 0;
-    width: 100%;
+    width: 80%;
   }
   form > label,
   legend {
-    width: 100%;
+    width: 80%;
     float: none;
   }
 
@@ -328,7 +328,7 @@ h1{
   }
 
   form > fieldset {
-    width: 100%;
+    width: 80%;
     float: none;
   }
 
