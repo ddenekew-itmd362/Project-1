@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-  line-height: 1;
+  line-height;
 }
 ol, ul {
   list-style: none;
@@ -147,7 +147,7 @@ legend {
   box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
-  max-width: 100%; /* 1 */
+  /* max-width: 50%; /* 1 */ */
   padding: 0; /* 3 */
   white-space: normal; /* 1 */
 }
@@ -245,8 +245,8 @@ fieldset{
   padding-top: 2em;
   padding-right: 9em;
   padding-bottom: 5em;
-  width: 50px;
-  height: auto;
+  width: 20px;
+  /* height: auto; */
 }
 form{
   padding-right;
@@ -305,7 +305,7 @@ h1{
 @media screen and (min-width: 720px) {
   body {
     width: 720px;
-    margin: auto;
+    /* margin: auto; */
     background-color: #000000;
   }
   div{
@@ -373,7 +373,7 @@ h1{
   }
 
   h1{
-    font-size: 2.9vw;
+    font-size: 3.9vw;
     margin-top: 5%;
   }
   body{
