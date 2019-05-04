@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-  line-height;
+  line-height: 1;
 }
 ol, ul {
   list-style: none;
@@ -52,7 +52,6 @@ Using 19px/1.333 modular scale
 http://www.modularscale.com/?19&px&1.333&web&text
 */
 html {
-  background-color;
   color: white;
 }
 body {
@@ -221,6 +220,9 @@ textarea {
 img, audio, video {
   display: block;
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em
 }
 label{
   font-size: 20px;
@@ -239,21 +241,17 @@ img {
 }
 fieldset{
   background-color: #000000;
-  /* background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
-  padding-top: 2em;
+  /* padding-top: 2em;
   padding-right: 9em;
+  padding-left: 9em;
   padding-bottom: 5em;
   width: 20px;
-  height: auto;
-}
-form{
-  padding-right;
-  padding-left;
+  height: auto; */
 }
 div{
-  padding-bottom: 25px;
+  padding-bottom: 5px;
+  display: inline-block;
+  text-align: center;
 }
 
 input[type=email],
@@ -288,8 +286,7 @@ h1{
   padding-top: 0.75em;
   padding-bottom: 0.75em;
   padding-left: 0.25em;
-  height: inline;
-  /* width: 100%; */
+  width: 100%;
   margin-right: 50%;
   margin-left: 50%;
 }
@@ -366,7 +363,6 @@ h1{
   }
   fieldset{
     width: 80%;
-    padding-left: 10%;
   }
   input[type=text]{
     width: 100%;
